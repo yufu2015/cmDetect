@@ -40,6 +40,7 @@ It is recommended to run the workflow step by step to ensure that each one is pr
 ## Help
 
 A log file with all the error messages can be found under the cmDetect directory
- 
+
+![Alt text](https://github.com/yufu2015/cmDetect/blob/master/illustration.jpg)
 
 
