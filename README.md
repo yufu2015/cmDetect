@@ -31,9 +31,9 @@ Note: the version of the tools provided here are the ones used in our analysis, 
 
 ## Usage
 
-A detailed cmDetect workflow on a single procesor is described in pipeline.sh in the script folder.
+A detailed cmDetect workflow for a single procesor is described in pipeline.sh in the script folder.
 
-If you wish to run certain steps (variant calling using GATK, annotation etc.) parallely, please adapt all the scripts accordingly (set environment variables etc.).
+If you wish to run certain steps (variant calling using GATK, annotation etc.) parallely on a cluster, please adapt all the scripts accordingly (set environment variables etc.).
 
 It is recommended to run the workflow step by step to ensure that each one is properly finished for all the samples.
 
