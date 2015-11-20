@@ -40,3 +40,15 @@ header="CHROM POS REF ALT ID ANN[0].GENEID GEN[0].AD[0] GEN[0].AD[1] GEN[0].GT G
 depth=10
 Taltdepth=5
 Tfreq=0.1
+
+###############
+## Check error
+###############
+# checkError step id
+
+checkError() {
+        if [[ ! $? -eq 0 ]]; then
+            echo "ERROR in step $1, $2" | tee -a $cmDetectDir/log.txt
+            #exit 1
+        fi
+}
