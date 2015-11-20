@@ -1,2 +1,2 @@
-T001	/data/T001.tumor.bam	/data/T001.blood.bam
-T002	/data/T002.tumor.bam    /data/T002.blood.bam
+T001	path_to_T001.tumor.bam	path_to_T001.blood.bam
+T002	path_to_T002.tumor.bam    path_to_T002.blood.bam
